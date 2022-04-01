@@ -3,6 +3,7 @@
   import "./app.css";
   import Header from "./lib/Header.svelte";
   import Home from "./lib/Home.svelte";
+  import Notes from "./lib/Notes.svelte";
 </script>
 
 
@@ -13,6 +14,7 @@
 
   <main class="flex-grow grid justify-items-center gap-8">
     <Home />
+    <Notes />
   </main>
 
   <Footer />
